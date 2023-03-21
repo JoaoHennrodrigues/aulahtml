@@ -1,10 +1,10 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Contato Barbearia Alura</title>
     <link rel="stylesheet" type="text/css" href="bilola.css">
-    <<link rel="stylesheet" href="bilola2.css">
+    <link rel="stylesheet" href="bilola2.css">
   </head>
   <body>
 
@@ -35,10 +35,23 @@
     <input type="Email" id="Email"class="input-padrao"required>
 
     <label for="Telefone"> Telefone</label>
-    <input type="tel" id="Telefone" class="input-padrao" required>
+    <input type="tel" id="Telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
 
     <label for="Mensagem"> Mensagem </label>
     <textarea cols="70" rows="10" id="Mensagem" class="input-padrao" required> </textarea>
+
+      <fieldset>
+        
+<legend>Como prefere o nosso contato?</legend>
+<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked> Email</label>
+<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+<label for="radio-watsapp"><input type="radio" name="contato" value="watsapp" id="radio-watsapp"> Watsapp</label>
+
+
+
+
+      </fieldset>
+
 
   </form>
     </main>

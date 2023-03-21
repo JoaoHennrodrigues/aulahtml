@@ -1,0 +1,55 @@
+header{
+    background: #96FFCF;
+}
+body{
+    background: #ADFFDA;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    font-family: Comic Sans MS;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+form{
+    margin: 40px 0;
+    
+}
+#formulario{
+    font-family:'Courier New', Courier, monospace;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:  50%;
+    border-radius: 25px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+#h2{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}

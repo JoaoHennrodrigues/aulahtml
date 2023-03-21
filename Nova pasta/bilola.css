@@ -6,12 +6,12 @@ width: 70%;
 
 body{
 
-background-color: #7D3C98
+background-color: #DDA6FF;
 }
 
 .principal{
 
-  background:  #6C3483
+  background:  #96FFCF;
 
 
 }
@@ -20,33 +20,33 @@ background-color: #7D3C98
 
   text-align: center;
   font-size: 70px;
-  color: white;
+  color: black;
   font-family: cursive;
 
 }
 
 .dois{
 text-align: center;
-color: white;
+color: black;
 font-family: cursive;
 font-size: 40px;
 }
 
 #missao{
   font-family:  monospace;
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
 }
 #missao2{
   font-family:  monospace;
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
 }
 #missao3{
   font-family:  monospace;
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
 
@@ -54,7 +54,7 @@ font-size: 40px;
 h3{
   text-align: center;
   font-family: cursive;
-  color: white;
+  color: black;
   font-size: 40px;
 }
 .itens{
@@ -74,9 +74,10 @@ ul{
   width: 290%
 }
 .Beneficios{
-  color: white;
+  color: black;
 }
 .chad{
 width: 50%;
+
 
 }

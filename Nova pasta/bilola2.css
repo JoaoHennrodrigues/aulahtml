@@ -53,3 +53,22 @@ main{
     font-weight: bold;
     font-size: 40px;
 }
+
+form label, form legend{
+display: block;
+font-size: 0 0 20px;
+margin: 0 0 10px;
+
+}
+
+.checkbox{
+margin: 20px 0;
+
+}
+
+.enviar{
+
+    width:40px;
+    padding: 15px 0;
+    background: linear-gradient(330deg, rgba(255,94,94,1) 100px);
+}
